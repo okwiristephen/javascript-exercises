@@ -378,6 +378,10 @@ describe("functions", function() {
             function myFunction(){
                 const length = arguments.length;
 
+                return function() {
+                    return length;
+                }
+            }
             ////////////////////////////////////////////////////////////////////
 
             // Look at that strange code: myFunction()().
