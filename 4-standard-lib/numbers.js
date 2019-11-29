@@ -63,10 +63,9 @@ describe("numbers", function() {
 
             ////////////////////////////////////////////////////////////////////////
 
-            expect(roundNumber(0)).to.equal(0);
-            expect(roundNumber(0.4)).to.equal(0);
-            expect(roundNumber(0.5)).to.equal(1);
-            expect(roundNumber(0.6)).to.equal(1);
+            function roundNumber(number){
+                return Math.floor(number);
+            }
         });
     });
 
