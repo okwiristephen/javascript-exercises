@@ -79,7 +79,9 @@ describe("numbers", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
 
-            ////////////////////////////////////////////////////////////////////////
+            function toInteger(number){
+                return Number.parseInt(number);
+            }
 
             expect(roundNumber(0)).to.equal(0);
             expect(roundNumber(0.4)).to.equal(0);
