@@ -82,6 +82,9 @@ describe("numbers", function() {
             function toInteger(number){
                 return Number.parseInt(number);
             }
+            function isFiniteNumber(number){
+                return Number.isFinite(number);
+            }
 
             expect(roundNumber(0)).to.equal(0);
             expect(roundNumber(0.4)).to.equal(0);
