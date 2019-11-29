@@ -103,7 +103,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+                function contains(string){
+                    return text.includes(string);
+                }
             ////////////////////////////////////////////////////////////////////
 
             expect(contains("quick")).to.equal(true);
