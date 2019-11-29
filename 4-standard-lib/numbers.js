@@ -69,7 +69,9 @@ describe("numbers", function() {
         });
     });
 
-    describe("Round number (2/3)", function() {
+            function roundNumber(number){
+                return Math.ceil(number);
+            }
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
