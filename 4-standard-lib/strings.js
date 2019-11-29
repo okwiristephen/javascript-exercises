@@ -123,6 +123,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
+                function cut(number,x){
+                    return text.slice(number,x);
+                } 
 
             ////////////////////////////////////////////////////////////////////
 
