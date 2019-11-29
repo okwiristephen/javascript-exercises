@@ -72,6 +72,9 @@ describe("numbers", function() {
             function roundNumber(number){
                 return Math.ceil(number);
             }
+            function getSmallestNumber(number){
+                return Math.min(number);
+            }
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
