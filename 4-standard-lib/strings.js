@@ -14,9 +14,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-            function findIndexOf(string){
-                return text.indexOf(string);
-            }
+                function findIndexOf(string){
+                    return text.indexOf(string);
+                }
             ////////////////////////////////////////////////////////////////////
 
             expect(findIndexOf("fox")).to.equal(16);
@@ -30,6 +30,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
+                function findLastIndexOf(string){
+                    return text.lastIndexOf(string);
+                }
 
             ////////////////////////////////////////////////////////////////////
 
@@ -44,7 +47,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+                function letterAt(string){
+                    return text.charAt(string);
+                }
             ////////////////////////////////////////////////////////////////////
 
             expect(letterAt(0)).to.equal("T");
@@ -60,7 +65,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+                function beginsWith(string){
+                    return text.includes(string);
+                }
             ////////////////////////////////////////////////////////////////////
 
             expect(beginsWith("The")).to.equal(true);
@@ -139,7 +146,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+                function transformToCapitalLetters(string){
+                    return text.toUpperCase(string);
+                }
             ////////////////////////////////////////////////////////////////////
 
             expect(transformToCapitalLetters()).to.equal(
