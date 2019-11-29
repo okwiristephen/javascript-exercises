@@ -34,7 +34,9 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-            // You will also need to do an additional check here.
+            function isNotANumber(number){
+                return Number.isNaN(number);
+            }
 
             ////////////////////////////////////////////////////////////////////////
 
